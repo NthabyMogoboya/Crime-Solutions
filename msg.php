@@ -45,37 +45,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Log Out</a>
+            <a class="nav-link" href="index.html">Log Out</a>
           </li>
           
         </ul>
       </div>
     </nav>
- <div >
+    <br><br><br><br><br>
+    
+ <div style="font-size: 25px; color: white; text-align: center; margin-right: 100;">
+<label style="margin-left: 100;">        You have No Messeges</label>
+<br><br><br>
+    <a href="victim_dashboard.php"><button class="btn-primary">OK</button></a>
+ </div>   
+ </body>
+ </html> 
 
-    <div class="container-fluid">
-     <br>
-      <main role="main" class="container">        
-        <h3 style="font-size: 30px; color: white;">Update Profile Information</h3> 
-        <strong><form method="post" action="update-profile-action.php?user=<?php echo $user_data['username'] ?>">     
-            <label style="font-size: 25px; color: white;">Name:</label><br> 
-          <input type="text" name="fullname" value=" " /><br> 
-          <label style="font-size: 25px; color: white;">Age:</label><br>
-          <input type="text" name="age" value=" " /><br> 
-          <label style="font-size: 25px; color: white;">Gender:</label><br> 
-          <input type="text" name="gender" value=" " /><br>
-          <label style="font-size: 25px; color: white;">Address:</label><br>          
-          <input type="text" name="address" value=" " /><br><br>  
-
-          
-
-          <a class="btn btn-lg btn-primary" href="victimprofile.php" role="button">Update Profile</a>
-          
-     </div> 
-</div>          
-       </form> </strong>
-</div>    
-</html> 
