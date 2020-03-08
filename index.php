@@ -40,7 +40,7 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Our Servicess</a></li>
 	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
@@ -56,10 +56,10 @@
           <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
           	<h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">The Law, My Right!</h2>
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-            	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
+            	<span>Professional</span> . <span>Creativity</span> . <span>Distinctive</span>
             </h1>
-            <p><a href="Login.php" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.php" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><a href="Login.php" class="btn btn-secondary py-3 px-5">Login</a></p>
+			<p><a href="Register.php" class="btn btn-secondary py-3 px-5">Register</a></p>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Practice Areas</h2>
+            <h2 class="mb-4">Our Services</h2>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
@@ -292,7 +292,7 @@
     	</div>
 		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <p><a href="attorneys.php" class="btn btn-primary py-3 px-5">View More</a></p>
+            <p><a href="attorneys.php" class="btn btn-secondary py-3 px-5">View More</a></p>
           </div>
         </div>
     </section>
