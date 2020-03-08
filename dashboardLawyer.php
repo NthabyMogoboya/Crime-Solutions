@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
     <title>Crime Act Solutions</title>
     <meta charset="utf-8">
@@ -42,7 +42,7 @@
 	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
 	          <li class="nav-item active"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
 	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
-	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+	          <!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -124,4 +124,4 @@
   <script src="js/main.js"></script>
     
   </body>
-</html>
+</php>
