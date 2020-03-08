@@ -28,7 +28,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <?php 
     
+        include_once 'database.php'; 
+
+
+    ?>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.php">Crime Act Solutions</a>
@@ -56,15 +61,15 @@
           <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
           	<h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">The Law, My Right!</h2>
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-            	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
+            	<span>Rights</span> . <span>Innovation</span> . <span>Excellence</span>
             </h1>
-            <p><a href="Login.php" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.php" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><a href="#" data-toggle="modal" data-target="#Login" class="btn btn-primary py-3 px-5">SignIn</a></p>
+			<p><a href="#" data-toggle="modal" data-target="#Registration" class="btn btn-primary py-3 px-5">SignUp</a></p>
           </div>
         </div>
       </div>
     </div>
-
+            
     <section class="ftco-section ftco-no-pb -section">
       <div class="container">
         <div class="row no-gutters d-flex">
@@ -297,7 +302,122 @@
         </div>
     </section>
 
-		
+		<!-- Reg Form -->
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Registration</h5>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" formControlName="fname" required class="form-control"
+                            placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="number" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your City">
+                    </div>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" formControlName="pword2" required class="form-control"
+                                    placeholder="Re-enter Secret Password">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn" >Submit</button> 
+                    <a href="login" class="btn btn-link">Login here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal end -->
+<!-- reg form end -->
+<!-- login -->
+<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Login</h5>
+            </div>
+            <form method="post" action="">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                           name="mail" placeholder="Enter your Email">
+                    </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                   name="password" placeholder="Enter Secret Password">
+                            </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" name="login" class="btn" value="Login">Login</button>
+                    <a href="" class="btn btn-link">Register here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<?php
+
+if(isset($_POST['login'])){
+    $mail = isset($_POST['mail']) ? $_POST['mail']: "";
+    $pass = isset($_POST['password']) ? $_POST['password'] : "";
+    
+    $q = "SELECT * FROM admin WHERE email='$mail' AND password='$pass'";
+    
+    $res = mysqli_query($conn, $q);
+    
+    if($res->num_rows > 0){
+        $user_details = $res->fetch_object();
+        $user_id = $user_details->id;
+        //$_SESSION['id'] = $user_id;
+        
+        header("Location: victim_dashboard.php");
+    } else {?>
+        <p class="error">Username and/or Password is incorrect</p>
+   <?php }
+}
+
+?>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
