@@ -75,7 +75,7 @@
                    
                 </div>
                 <div class="modal-footer justify-content-center">
-                    <button type="submit" class="btn" >Submit</button> 
+                    <button type="submit" name="login" class="btn">Submit</button> 
                     <a href="login" class="btn btn-link">Login here</a> 
                     <!-- (click)="postApplication() -->
                 </div>

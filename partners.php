@@ -40,11 +40,11 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item active"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
 	          <!--<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>-->
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="partners.php" class="nav-link">Partners</a></li>
+              <li class="nav-item active"><a href="partners.php" class="nav-link">Partners</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,13 +56,35 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Services</h1>
+            <h1 class="mb-3 bread">Partners</h1>
            <!-- <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services <i class="ion-ios-arrow-forward"></i></span></p>
     --> 
      </div>
         </div>
       </div>
     </section>
+	<section>
+		
+		<div class="partners justify-content-center">
+			<div class="rowX">
+				<div class="imgX"><img width="300px" src="images/ibm.svg"><br>
+					<a href="https://www.ibm.com">Visit IBM web</a>
+				</div>
+				<div class="imgX"><img width="300px" src="images/pol.png"><br>
+					<a href="https://www.saps.gov.za/services/report_crime.php">Click here for more information about SAPS</a>
+				</div>
+				<div class="imgX"><img width="300px" src="images/doj.png"><br>
+					<p>Department of Justice</p>
+				</div>
+				<div class="imgX"><img width="300px" src="images/LSSA.jpg"><br>
+					<p>Law Society of South Africa</p>
+				</div>
+			</div>
+		<div>
+
+</div>
+		
+	</section>
    	
     <!--<section class="ftco-section bg-light">
     	<div class="container">
@@ -248,9 +270,9 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <!-- <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Partners</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Family Law</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Business Law</a></li>
@@ -263,7 +285,7 @@
 
               </ul>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Business Hours</h2>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> - Free Bootstrap 4 Template by Colorlib</title>
+    <title> Crime Solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -40,17 +40,17 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
-	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="partners.php" class="nav-link">Partners</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/crime what what.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -61,9 +61,11 @@
         </div>
       </div>
     </section>
-
    	
-    <section class="ftco-counter" id="section-counter">
+     <sectio>
+
+     </section>
+    <!--<section class="ftco-counter" id="section-counter">
     	<div class="container-fluid">
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex">
@@ -131,8 +133,7 @@
         </div>
     	</div>
     </section>
-
-    <section class="ftco-section -section bg-light">
+    <section class="ftco-section services-section bg-light">
       <div class="container mt-0">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -140,28 +141,28 @@
           </div>
         </div>
         <div class="row no-gutters d-flex">
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-auction"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Get Your Legal Advice</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-lawyer"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Work with Expert Lawyers</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-money"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Have Great Discounted Rates</a></h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Review Your Case Documents</a></h3>
@@ -171,8 +172,6 @@
         </div>
       </div>
     </section>
-
-
 		<section class="ftco-consultation">
     	<div class="container-fluid">
     		<div class="row d-md-flex">
@@ -180,7 +179,7 @@
     				<div class="overlay"></div>
     				<div class="desc text-center">
     					<div class="icon"><span class="flaticon-auction"></span></div>
-    					<h1><a href="index.php"> <br><span>Law Firm Website</span></a></h1>
+    					<h1><a href="index.php">Home <br><span>Law Firm Website</span></a></h1>
     				</div>
     			</div>
     			<div class="half p-3 p-md-5 ftco-animate">
@@ -206,7 +205,6 @@
     		</div>
     	</div>
     </section>
-
     <section class="ftco-section testimony-section bg-secondary">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -293,8 +291,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="ftco-gallery">
     	<div class="container-wrap">
     		<div class="row no-gutters">
@@ -329,7 +325,6 @@
         </div>
     	</div>
     </section>
-
     <section class="ftco-section-parallax bg-secondary">
       <div class="parallax-img d-flex align-items-center">
         <div class="container">
@@ -351,7 +346,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -369,7 +364,7 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Practice Areas</h2>
+              <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Family Law</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Business Law</a></li>

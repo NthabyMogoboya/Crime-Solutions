@@ -15,7 +15,7 @@
 
     <title>Court Act Solution</title>
 </head>
-<body style= "background-color:grey; background-image: url('images/bg_1.jpg');" >
+<body style= "background-color:grey; background-image: url('images/crime what what.jpg');" >
 <div class="d-flex" id="wrapper">
 
 <!-- Sidebar -->

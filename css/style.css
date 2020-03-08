@@ -9617,4 +9617,11 @@ textarea.form-control {
       font-size: 25px;
       color: white;
     }
-    
+   .partners{
+     display: flex;
+   }
+   .rowX{
+     display: flex;
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }

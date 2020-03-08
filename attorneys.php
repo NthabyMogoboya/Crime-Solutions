@@ -1,7 +1,7 @@
 <!DOCTYPE php>
 <php lang="en">
   <head>
-    <title>Whisper - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Whisper Crime Solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -40,24 +40,25 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
 	          <li class="nav-item active"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
-	          <!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
+	          
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="partners.php" class="nav-link">Partners</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/crime what what.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
             <h1 class="mb-3 bread">Our Legal Advisors</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Attorneys <i class="ion-ios-arrow-forward"></i></span></p>
-          </div>
+           <!-- <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Attorneys <i class="ion-ios-arrow-forward"></i></span></p>
+         --> </div>
         </div>
       </div>
     </section>
@@ -67,7 +68,7 @@
     	<div class="container-fluid">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Our Attorney</span>
+          	<!--<span class="subheading">Our Attorney</span>-->
             <h2 class="mb-4">Crimes & Discriptions</h2>
           </div>
         </div>

@@ -41,7 +41,7 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Crime Categories</a></li>
 	          <li class="nav-item active"><a href="blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
@@ -51,7 +51,7 @@
 	  </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/crime what what.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
