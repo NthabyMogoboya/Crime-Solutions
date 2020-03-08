@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
     <title>Crime Act Solutions</title>
     <meta charset="utf-8">
@@ -58,38 +58,45 @@
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
             </h1>
-            <p><a href="Login.php" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.php" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">
+				Sign-In
+			  </button></a></p>
+			<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Registration">
+				Sign-Up
+			  </button></a></p>
           </div>
         </div>
       </div>
-    </div>
+	</div>
+	<!--  -->
+	
 
-    <section class="ftco-section ftco-no-pb -section">
+	<!--  -->
+    <section class="ftco-section ftco-no-pb services-section">
       <div class="container">
         <div class="row no-gutters d-flex">
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-auction"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Get Your Legal Advice</a></h3>
               <p>your legal issue, solve your problem. C.A.S helps people of low and moderate incomes find free legal aid programs in their communities.</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-lawyer"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Work with Expert Lawyers</a></h3>
               <p>One way to work with a lawyer is to turn over your entire legal issue and rely on the lawyer to handle things.</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="flaticon-money"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Have Great Discounted Rates</a></h3>
               <p>It can get expensive if you don't know where and how to find the best deals. That's where we can help!</p>
             </div>
           </div>
-          <div class="col-md-3 text-center  align-self-stretch ftco-animate p-4">
+          <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
             <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
             <div class="media-body">
               <h3 class="heading mb-3"><a href="#">Review Your Case Documents</a></h3>
@@ -190,26 +197,40 @@
         	</div>
         </div>
     	</div>
-		<div class="row">
+				<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <p><a href="practice-areas.php.]" class="btn btn-primary py-3 px-5">Learn More</a></p>
+          </div>
+        </div>
+    </section>
+
+    <section class="ftco-section bg-secondary">
+    	<div class="container-fluid">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-4">Crime Categories</h2>
+          </div>
+        </div>
+        <div class="row">
         	<div class="col-lg-3 col-sm-6">
         		<div class="block-2 ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_1.jpg);">
 	                <div class="box">
-	                  <h2>Murder</h2>
-	                  <!-- <p>Civil Lawyer</p> -->
+	                  <h2>Richard Anderson</h2>
+	                  <p>Civil Lawyer</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Murder is the unlawful killing of another human without justification or valid excuse, especially the unlawful killing of another human with malice aforethought. This state of mind may, depending upon the jurisdiction, distinguish murder from other forms of unlawful homicide, such as manslaughter..&rdquo;</p>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
-	                    <!-- <img src="images/person_1.jpg" alt=""> -->
+	                    <img src="images/person_1.jpg" alt="">
 	                  </div>
-	                  <!-- <div class="name align-self-center">Richard Anderson <span class="position">Civil Lawyer</span></div> -->
+	                  <div class="name align-self-center">Richard Anderson <span class="position">Civil Lawyer</span></div>
 	                </div>
 	              </div>
 	            </div>
@@ -220,20 +241,20 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_2.jpg);">
 	                <div class="box">
-	                  <h2>Rape</h2>
-	                  <!-- <p>Business Lawyer</p> -->
+	                  <h2>Jefford Maxillin</h2>
+	                  <p>Business Lawyer</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability or is below the legal age of consent.&rdquo;</p>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
-	                    <!-- <img src="images/person_2.jpg" alt=""> -->
+	                    <img src="images/person_2.jpg" alt="">
 	                  </div>
-	                  <!-- <div class="name align-self-center">Jefford Maxillin<span class="position">Business Lawyer</span></div> -->
+	                  <div class="name align-self-center">Jefford Maxillin<span class="position">Business Lawyer</span></div>
 	                </div>
 	              </div>
 	            </div>
@@ -244,44 +265,44 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_3.jpg);">
 	                <div class="box">
-	                  <h2>Car hijackings</h2>
-	                  <!-- <p>Criminal Defense</p> -->
+	                  <h2>Carlos Obing</h2>
+	                  <p>Criminal Defense</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Carjacking is a robbery in which the item taken over is a motor vehicle.&rdquo;</p>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
-	                    <!-- <img src="images/person_3.jpg" alt=""> -->
+	                    <img src="images/person_3.jpg" alt="">
 	                  </div>
-	                  <!-- <div class="name align-self-center">Carlos Obing <span class="position">Criminal Defense</span></div> -->
+	                  <div class="name align-self-center">Carlos Obing <span class="position">Criminal Defense</span></div>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
-			</div>
-			<div class="col-lg-3 col-sm-6">
+        	</div>
+        	<div class="col-lg-3 col-sm-6">
         		<div class="block-2 ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_4.jpg);">
 	                <div class="box">
-	                  <h2>Cash-in-transit heists</h2>
-	                  <!-- <p>Insurance Lawyer</p> -->
+	                  <h2>Nathan Smith</h2>
+	                  <p>Insurance Lawyer</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Cash-in-transit (CIT) or cash/valuables-in-transit (CVIT) is the physical transfer of banknotes, coins, credit cards and items of value from one location to another.&rdquo;</p>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
-	                    <!-- <img src="images/person_4.jpg" alt=""> -->
+	                    <img src="images/person_4.jpg" alt="">
 	                  </div>
-	                  <!-- <div class="name align-self-center">Nathan Smith <span class="position">Insurance Lawyer</span></div> -->
+	                  <div class="name align-self-center">Nathan Smith <span class="position">Insurance Lawyer</span></div>
 	                </div>
 	              </div>
 	            </div>
@@ -292,7 +313,7 @@
     	</div>
 		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <p><a href="attorneys.php" class="btn btn-primary py-3 px-5">View More</a></p>
+            <p><a href="#" class="btn btn-primary py-3 px-5">View More</a></p>
           </div>
         </div>
     </section>
@@ -314,6 +335,116 @@
     </footer>
     
   
+
+
+	<!-- Modal -->
+<!-- lunch button uses id as referrence -->
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+aria-hidden="true">
+<div class="modal-dialog modal-ls" role="document">
+	<div class="modal-content">
+		<div class="modal-header text-light justify-content-center">
+			<h5 class="modal-title ">C.A.S Registration</h5>
+		</div>
+		<form>
+			<div class="modal-body">
+
+				<div class="form-group">
+					<!-- <label>First Name</label> -->
+					<input type="text" formControlName="fname" required class="form-control"
+						placeholder="Enter Your First Name">
+				</div>
+
+				<div class="form-group">
+					<!-- <label>Last Name</label> -->
+					<input type="text" formControlName="lname" required class="form-control"
+						placeholder="Enter Your Last Name">
+				</div>
+
+
+				<div class="form-group">
+					<!-- <label>Email address</label> -->
+					<input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+						placeholder="Enter your Email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+						else.</small>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Password</label> -->
+							<input type="password" formControlName="pword" required class="form-control"
+								placeholder="Enter Secret Password">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Confirm Password</label> -->
+							<input type="password" formControlName="pword2" required class="form-control"
+								placeholder="Re-enter Secret Password">
+						</div>
+					</div>
+				</div>
+
+
+			   
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="submit" class="btn " >Submit</button> 
+				<a class="btn btn-link" data-toggle="modal" data-target="#login">Login here</a> 
+				<!-- (click)="postApplication() -->
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+
+<!-- Modal end -->
+
+<!-- Modal -->
+    <!-- lunch button uses id as referrence -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+        aria-hidden="true">
+        <div class="modal-dialog modal-ls" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-light justify-content-center">
+                    <h5 class="modal-title ">C.A.S Login</h5>
+                </div>
+                <form>
+                    <div class="modal-body">
+    
+                        <div class="form-group">
+                            <!-- <label>Email address</label> -->
+                            <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                                placeholder="Enter your Email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <!-- <label>Password</label> -->
+                                    <input type="password" formControlName="pword" required class="form-control"
+                                        placeholder="Enter Secret Password">
+                                </div>
+                            </div>
+                           
+                        </div>
+    
+    
+                       
+                    </div>
+                    
+                        <div class="modal-footer justify-content-center">
+                            <button type="submit" class="btn" >Login</button> 
+                            <!-- <a href="application">Apply For ICEP</a>  -->
+                        </div>           
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal end -->
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -338,4 +469,4 @@
   <script src="js/main.js"></script>
     
   </body>
-</html>
+</php>
