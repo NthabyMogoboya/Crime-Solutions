@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!DOCTYPE php>
+<php lang="en">
+<head>
     <title>Crime Act Solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +28,11 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <?php 
     
+        include_once 'database.php'; 
+
+    ?>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">Crime Act Solutions</a>
@@ -38,11 +42,11 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
+	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -58,8 +62,8 @@
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
             </h1>
-            <p><a href="Login.php" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.php" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><a href="#" class="btn btn-primary py-3 px-5">SignIn</a></p>
+			<p><a href="#" class="btn btn-primary py-3 px-5">SignUp</a></p>
           </div>
         </div>
       </div>
@@ -104,7 +108,7 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Practice Areas</h2>
+            <h2 class="mb-4">Services</h2>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
@@ -210,7 +214,7 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_1.jpg);">
 	                <div class="box">
-	                  <h2>Richard Anderson</h2>
+	                  <h2>Theft</h2>
 	                  <p>Civil Lawyer</p>
 	                </div>
 	              </div>
@@ -234,7 +238,7 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_2.jpg);">
 	                <div class="box">
-	                  <h2>Jefford Maxillin</h2>
+	                  <h2>Robbery</h2>
 	                  <p>Business Lawyer</p>
 	                </div>
 	              </div>
@@ -258,7 +262,7 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_3.jpg);">
 	                <div class="box">
-	                  <h2>Carlos Obing</h2>
+	                  <h2>Assault</h2>
 	                  <p>Criminal Defense</p>
 	                </div>
 	              </div>
@@ -282,7 +286,7 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_4.jpg);">
 	                <div class="box">
-	                  <h2>Nathan Smith</h2>
+	                  <h2>Kidnapp</h2>
 	                  <p>Insurance Lawyer</p>
 	                </div>
 	              </div>
@@ -310,6 +314,121 @@
           </div>
         </div>
     </section>
+     <div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Registration</h5>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" formControlName="fname" required class="form-control"
+                            placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="number" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your City">
+                    </div>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" formControlName="pword2" required class="form-control"
+                                    placeholder="Re-enter Secret Password">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn" >Submit</button> 
+                    <a href="login" class="btn btn-link">Login here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal end -->
+<!-- reg form end -->
+<!-- login -->
+<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Login</h5>
+            </div>
+            <form method="post" action="">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                           name="mail" placeholder="Enter your Email">
+                    </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                   name="password" placeholder="Enter Secret Password">
+                            </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" name="login" class="btn" value="Login">Login</button>
+                    <a href="" class="btn btn-link">Register here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<?php
+
+if(isset($_POST['login'])){
+    $mail = isset($_POST['mail']) ? $_POST['mail']: "";
+    $pass = isset($_POST['password']) ? $_POST['password'] : "";
+    
+    $q = "SELECT * FROM admin WHERE email='$mail' AND password='$pass'";
+    
+    $res = mysqli_query($conn, $q);
+    
+    if($res->num_rows > 0){
+        $user_details = $res->fetch_object();
+        $user_id = $user_details->id;
+        //$_SESSION['id'] = $user_id;
+        
+        header("Location: victim_dashboard.php");
+    } else {?>
+        <p class="error">Username and/or Password is incorrect</p>
+   <?php }
+}
+
+?>
 
 		
 
@@ -326,7 +445,111 @@
         </div>
       </div>
     </footer>
+ <div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+aria-hidden="true">
+<div class="modal-dialog modal-ls" role="document">
+	<div class="modal-content">
+		<div class="modal-header text-light justify-content-center">
+			<h5 class="modal-title ">C.A.S Registration</h5>
+		</div>
+		<form>
+			<div class="modal-body">
+
+				<div class="form-group">
+					<!-- <label>First Name</label> -->
+					<input type="text" formControlName="fname" required class="form-control"
+						placeholder="Enter Your First Name">
+				</div>
+
+				<div class="form-group">
+					<!-- <label>Last Name</label> -->
+					<input type="text" formControlName="lname" required class="form-control"
+						placeholder="Enter Your Last Name">
+				</div>
+
+
+				<div class="form-group">
+					<!-- <label>Email address</label> -->
+					<input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+						placeholder="Enter your Email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+						else.</small>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Password</label> -->
+							<input type="password" formControlName="pword" required class="form-control"
+								placeholder="Enter Secret Password">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Confirm Password</label> -->
+							<input type="password" formControlName="pword2" required class="form-control"
+								placeholder="Re-enter Secret Password">
+						</div>
+					</div>
+				</div>
+
+
+			   
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="submit" class="btn " >Submit</button> 
+				<a class="btn btn-link" data-toggle="modal" data-target="#login">Login here</a> 
+				<!-- (click)="postApplication() -->
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+
+<!-- Modal end -->
+
+<!-- Modal -->
+    <!-- lunch button uses id as referrence -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+        aria-hidden="true">
+        <div class="modal-dialog modal-ls" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-light justify-content-center">
+                    <h5 class="modal-title ">C.A.S Login</h5>
+                </div>
+                <form>
+                    <div class="modal-body">
     
+                        <div class="form-group">
+                            <!-- <label>Email address</label> -->
+                            <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                                placeholder="Enter your Email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <!-- <label>Password</label> -->
+                                    <input type="password" formControlName="pword" required class="form-control"
+                                        placeholder="Enter Secret Password">
+                                </div>
+                            </div>
+                           
+                        </div>
+    
+    
+                       
+                    </div>
+                    
+                        <div class="modal-footer justify-content-center">
+                            <button type="submit" class="btn" >Login</button> 
+                            <!-- <a href="application">Apply For ICEP</a>  -->
+                        </div>           
+                </form>
+            </div>
+        </div>
+    </div>
+       
   
 
   <!-- loader -->
@@ -352,4 +575,4 @@
   <script src="js/main.js"></script>
     
   </body>
-</html>
+</php>
