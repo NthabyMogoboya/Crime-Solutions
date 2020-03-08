@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Court Act Solution</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -69,13 +69,28 @@
         <div class="modal-content">
             <div class="modal-header  justify-content-center">
                 <h5 class="modal-title ">Registration</h5>
+                <?php 
+            if(! empty($errorMessage)&& is_array($errorMessage)){
+              ?>
+              <div class = "error-message">
+                  <?php 
+                    foreach($errorMessage as $message){
+                     echo $message . "<br/>";
+                      }
+
+                   ?>
+                   
             </div>
+            <?php
+                   }
+                   ?>
+           
             <form>
                 <div class="modal-body">
                     <div class="form-group">
                         <label>First Name</label>
                         <input type="text" formControlName="fname" required class="form-control"
-                            placeholder="Enter Your First Name">
+                            placeholder="Enter Your First Name" value="<?php if(isset($_POST['userName'])) echo $_POST['userName']; ?>">>
                     </div>
                     <div class="form-group">
                         <label>Surname</label>
